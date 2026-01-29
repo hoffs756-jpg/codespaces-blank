@@ -8,7 +8,7 @@ body {
   padding: 40px;
 }
 
-h1, h2, h3 {
+h1, h3 {
   font-size: 2rem;
   font-weight: 400;
 }
@@ -21,6 +21,14 @@ h1, h2, h3 a {
 
 h1, h2, h3 a:hover {
   text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+
 }
 
 /* go home button */

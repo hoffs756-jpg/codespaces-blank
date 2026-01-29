@@ -22,7 +22,13 @@ h1, h2, h3 a {
 h1, h2, h3 a:hover {
   text-decoration: underline;
 }
+h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
 
+}
 /* go home button */
 a button {
   background-color: transparent;
