@@ -17,6 +17,8 @@ body {
 h1, h2, h3 {
   font-size: 2rem;
   font-weight: 400;
+  text-align: center;
+
 }
 
 h1 a, h2 a, h3 a {
