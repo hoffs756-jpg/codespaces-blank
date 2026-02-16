@@ -1,0 +1,94 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+/* 🌌 GIF Background */
+body {
+  font-family: "Kantumruy Pro", sans-serif;
+  padding: 40px;
+  padding-bottom: 140px; /* space for fixed buttons */
+  text-align: center;
+
+  background-image: url("sand.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Stack content vertically (kept in case you use it) */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Text styling */
+p {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Highlighted link */
+.persistent-highlight {
+  background-color: rgba(140, 170, 210, 0.85);
+  color: black;
+  text-decoration: none;
+  padding: 0 6px;
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+}
+
+.persistent-highlight:hover {
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+/* Button alignment */
+.button-link {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+.btn {
+  color: black;
+  text-transform: uppercase;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.85);
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(45deg);
+  background-color: black;
+  z-index: -1;
+  transition: all 1s;
+}
+
+.btn:hover::before {
+  width: 160%;
+}
