@@ -27,8 +27,8 @@ h1, p {
   color: black;
   padding: 15px 20px;
   border-radius: 6px;
-  display: inline-block;
-
+  display: block;
+  text-align: left;
 }
 
 h1 {
