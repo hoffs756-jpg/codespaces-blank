@@ -76,7 +76,10 @@ p {
 
 .btn::before {
   content: "";
-  position: absolute;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   height: 100%;
   width: 0%;
   top: 0;
