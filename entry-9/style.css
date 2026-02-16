@@ -7,11 +7,7 @@ html, body {
 body {
   font-family: "Kantumruy Pro", sans-serif;
   padding: 40px;
-
-  /* Center everything neatly */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 140px; /* space for fixed buttons */
   text-align: center;
 
   background-image: url("garden.gif");
@@ -21,29 +17,19 @@ body {
   background-attachment: fixed;
 }
 
-/* Stack content vertically */
+/* Stack content vertically (kept in case you use it) */
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* ✨ White highlight */
-h1, p {
+/* Text styling */
+p {
   background-color: rgba(255, 255, 255, 0.85);
   color: black;
-  display: inline-block;
-  padding: 10px 15px;
+  padding: 20px;
   border-radius: 6px;
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-p {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.6;
@@ -51,7 +37,7 @@ p {
   margin: 0 auto 2rem auto;
 }
 
-/* 🔍 Highlighted link */
+/* Highlighted link */
 .persistent-highlight {
   background-color: rgba(255, 193, 0, 1);
   color: black;
@@ -65,7 +51,7 @@ p {
   background-color: rgba(255, 255, 255, 0.65);
 }
 
-/* Center button links */
+/* Button alignment */
 .button-link {
   display: inline-block;
   margin-bottom: 15px;
@@ -75,7 +61,6 @@ p {
 .btn {
   color: black;
   text-transform: uppercase;
-  text-decoration: none;
   border: 2px solid black;
   padding: 10px 20px;
   font-size: 17px;

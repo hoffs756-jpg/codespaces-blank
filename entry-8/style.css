@@ -7,11 +7,7 @@ html, body {
 body {
   font-family: "Kantumruy Pro", sans-serif;
   padding: 40px;
-
-  /* Center everything neatly in order */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 140px; /* space for fixed buttons */
   text-align: center;
 
   background-image: url("garden.gif");
@@ -21,21 +17,19 @@ body {
   background-attachment: fixed;
 }
 
-/* Keeps content stacked vertically */
+/* Stack content vertically (kept in case you use it) */
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* ✨ White highlight behind text */
+/* Text styling */
 p {
   background-color: rgba(255, 255, 255, 0.85);
   color: black;
-  display: inline-block;
-  padding: 10px 15px;
+  padding: 20px;
   border-radius: 6px;
-
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.6;
@@ -43,7 +37,7 @@ p {
   margin: 0 auto 2rem auto;
 }
 
-/* 🔍 Persistent highlighted link */
+/* Highlighted link */
 .persistent-highlight {
   background-color: rgba(255, 193, 0, 1);
   color: black;
@@ -57,17 +51,16 @@ p {
   background-color: rgba(255, 255, 255, 0.65);
 }
 
-/* Make anchor center properly */
+/* Button alignment */
 .button-link {
   display: inline-block;
   margin-bottom: 15px;
 }
 
-/* Button styling (unchanged look) */
+/* Button styling */
 .btn {
   color: black;
   text-transform: uppercase;
-  text-decoration: none;
   border: 2px solid black;
   padding: 10px 20px;
   font-size: 17px;

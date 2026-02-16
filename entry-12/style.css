@@ -7,10 +7,7 @@ html, body {
 body {
   font-family: "Kantumruy Pro", sans-serif;
   padding: 40px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 140px; /* space for fixed buttons */
   text-align: center;
 
   background-image: url("garden.gif");
@@ -20,7 +17,7 @@ body {
   background-attachment: fixed;
 }
 
-/* Stack content vertically */
+/* Stack content vertically (kept in case you use it) */
 .content {
   display: flex;
   flex-direction: column;
@@ -31,10 +28,8 @@ body {
 p {
   background-color: rgba(255, 255, 255, 0.85);
   color: black;
-  display: inline-block;
-  padding: 10px 15px;
+  padding: 20px;
   border-radius: 6px;
-
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.6;
@@ -62,38 +57,4 @@ p {
   margin-bottom: 15px;
 }
 
-/* Button styling */
-.btn {
-  color: black;
-  text-transform: uppercase;
-  border: 2px solid black;
-  padding: 10px 20px;
-  font-size: 17px;
-  cursor: pointer;
-  font-weight: bold;
-  background: rgba(255, 255, 255, 0.85);
-  position: relative;
-  transition: all 1s;
-  overflow: hidden;
-}
-
-.btn:hover {
-  color: white;
-}
-
-.btn::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 0%;
-  top: 0;
-  left: -40px;
-  transform: skewX(45deg);
-  background-color: black;
-  z-index: -1;
-  transition: all 1s;
-}
-
-.btn:hover::before {
-  width: 160%;
-}
+/* Button st*
