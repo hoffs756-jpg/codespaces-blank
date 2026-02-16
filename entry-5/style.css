@@ -48,7 +48,7 @@ p {
 
 /* 🔍 Persistent highlighted link */
 .persistent-highlight {
-  background-color: rgba(255, 193, 0, 1);
+  background-color: rgb(34, 139, 34);
   color: black;
   text-decoration: none;
   padding: 0 6px;

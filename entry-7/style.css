@@ -53,7 +53,7 @@ h1 {
 
 /* Highlighted link */
 .persistent-highlight {
-  background-color: rgba(255, 193, 0, 1);
+  background-color: rgba(140, 170, 210, 0.85);
   color: black;
   text-decoration: none;
   padding: 0 6px;

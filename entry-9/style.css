@@ -40,7 +40,7 @@ p {
 
 /* Highlighted link */
 .persistent-highlight {
-  background-color: rgba(255, 193, 0, 1);
+  background-color: rgba(34, 139, 34, 0.85);
   color: black;
   text-decoration: none;
   padding: 0 6px;
