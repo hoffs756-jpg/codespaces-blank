@@ -22,22 +22,25 @@ body {
 }
 
 /* ✨ White highlight behind main text */
-h1, p {
+h1 {
   background-color: rgba(255, 255, 255, 0.85);
   color: black;
   padding: 15px 20px;
   border-radius: 6px;
-  display: block;
-  text-align: left;
-}
-
-h1 {
+  display: inline-block;
+  text-align: center;
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
 p {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+  padding: 15px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  text-align: center;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.6;
