@@ -90,3 +90,13 @@ p {
 .btn:hover::before {
   width: 160%;
 }
+/* 🔽 Fixed bottom centered buttons */
+.button-container {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px; /* space between buttons */
+  z-index: 10;
+}

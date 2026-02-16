@@ -7,14 +7,26 @@ html, body {
 body {
   font-family: "Kantumruy Pro", sans-serif;
   padding: 40px;
+
+  /* Center EVERYTHING neatly in order */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 
-  /* PASTE YOUR GIF LINK BELOW */
+  /* GIF */
   background-image: url("garden.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+/* Keeps content stacked properly */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* ✨ White highlight behind main text */
@@ -24,8 +36,6 @@ h1, p {
   display: inline-block;
   padding: 10px 15px;
   border-radius: 6px;
-  text-align: center;
-
 }
 
 h1 {
@@ -56,7 +66,12 @@ p {
   background-color: rgba(255, 255, 255, 0.65);
 }
 
-/* Button styling (kept same structure, adjusted for contrast) */
+/* Make anchor behave properly for centering */
+.button-link {
+  display: inline-block;
+}
+
+/* Button styling (kept same look) */
 .btn {
   color: black;
   text-transform: uppercase;
