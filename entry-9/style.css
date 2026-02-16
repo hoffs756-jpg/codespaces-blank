@@ -37,16 +37,6 @@ p {
   margin: 0 auto 2rem auto;
 }
 
-h1 {
-  background-color: rgba(255, 255, 255, 0.85);
-  color: black;
-  padding: 20px;
-  border-radius: 6px;
-  font-size: 2rem;
-  font-weight: 600;
-  max-width: 800px;
-  margin: 0 auto 2rem auto;
-}
 
 /* Highlighted link */
 .persistent-highlight {
