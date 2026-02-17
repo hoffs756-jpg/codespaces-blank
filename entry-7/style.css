@@ -3,11 +3,10 @@ html, body {
   height: 100%;
 }
 
-/* 🌌 GIF Background */
 body {
   font-family: "Kantumruy Pro", sans-serif;
   padding: 40px;
-  padding-bottom: 140px; /* space for fixed buttons */
+  padding-bottom: 140px; 
   text-align: center;
 
   background-image: url("sand.gif");
@@ -17,7 +16,6 @@ body {
   background-attachment: fixed;
 }
 
-/* Stack content vertically (kept in case you use it) */
 .content {
   display: flex;
   flex-direction: column;
@@ -37,7 +35,6 @@ p {
   margin: 0 auto 2rem auto;
 }
 
-/* ✨ White highlight behind main text */
 h1 {
   background-color: rgba(255, 255, 255, 0.85);
   color: black;
@@ -51,7 +48,6 @@ h1 {
 }
 
 
-/* Highlighted link */
 .persistent-highlight {
   background-color: rgba(140, 170, 210, 0.85);
   color: black;
@@ -65,13 +61,11 @@ h1 {
   background-color: rgba(255, 255, 255, 0.65);
 }
 
-/* Button alignment */
 .button-link {
   display: inline-block;
   margin-bottom: 15px;
 }
 
-/* Button styling */
 .btn {
   color: black;
   text-transform: uppercase;

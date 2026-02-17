@@ -3,13 +3,12 @@ html, body {
   height: 100%;
 }
 
-/* 🌌 GIF Background */
 body {
   font-family: "Kantumruy Pro", sans-serif;
   padding: 40px;
   text-align: center;
 
-  /* PASTE YOUR GIF LINK BELOW */
+
   background-image: url("garden.gif");
   background-size: cover;
   background-position: center;
@@ -17,7 +16,6 @@ body {
   background-attachment: fixed;
 }
 
-/* ✨ White highlight behind main text */
 h1, p {
   background-color: rgba(255, 255, 255, 0.85);
   color: black;
@@ -40,7 +38,7 @@ p {
   margin: 0 auto 2rem auto;
 }
 
-/* 🔍 Persistent highlighted link */
+/* Persistent highlighted link */
 .persistent-highlight {
   background-color: rgba(34, 139, 34);
   color: black;
@@ -90,7 +88,7 @@ p {
 .btn:hover::before {
   width: 160%;
 }
-/* 🔽 Fixed bottom centered buttons */
+
 .button-container {
   position: fixed;
   bottom: 30px;

@@ -2,7 +2,7 @@ html, body {
   margin: 0;
 }
 
-/* 🌌 GIF Background */
+
 body {
   font-family: "Kantumruy Pro", sans-serif;
   padding: 40px;
@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
 }
 
-/* ✨ White highlight behind main text */
+/* White highlight behind main text */
 h1, p {
   background-color: rgba(255, 255, 255, 0.85);
   color: black;
@@ -43,7 +43,7 @@ p {
   margin: 0 auto 2rem auto;
 }
 
-/* 🔍 Persistent highlighted link */
+/* Persistent highlighted link */
 .persistent-highlight {
   background-color: rgba(112, 41, 99, 0.85);
   color: black;

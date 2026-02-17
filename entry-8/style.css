@@ -3,7 +3,6 @@ html, body {
   height: 100%;
 }
 
-/* 🌌 GIF Background */
 body {
   font-family: "Kantumruy Pro", sans-serif;
   padding: 40px;
@@ -17,7 +16,6 @@ body {
   background-attachment: fixed;
 }
 
-/* Stack content vertically (kept in case you use it) */
 .content {
   display: flex;
   flex-direction: column;
